@@ -1,0 +1,64 @@
+body {
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin: 0   px;
+    text-align: center;
+
+}
+
+header {
+    
+    background-color: #219D01;
+    color: white;
+    padding: 10px;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+   background-color: rgb(201, 122, 18);
+   padding: 10px;
+      }
+
+    nav a{
+
+color: white;
+text-decoration: none;
+margin: 0 15px  ;
+  
+}
+    nav a:hover{
+
+color: rgb(0, 0, 0);
+text-decoration: underline;
+cursor: crosshair;
+
+    }
+
+img{
+    padding: 50px;
+    margin: 50px;
+    height: 500px;
+}
+
+    section{
+
+margin: 20px 0 ;
+}
+iframe{
+border-radius: 20px;
+}
+
+footer{
+
+background-color: #219D01;
+color: white;
+position: fixed;
+padding: 10px;
+bottom: 0;
+width: 100% ;
+}
