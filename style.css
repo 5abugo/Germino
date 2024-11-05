@@ -1,4 +1,4 @@
-* {
+T* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,44 +18,58 @@
 
 }
 
-header{
+header {
     padding: 0px;
+    font-family: sans-serif;
 }
 
 nav {
-    
+
     display: flex;
     justify-content: left;
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 30px;
-    background: linear-gradient(90deg,#219D01 0%, #366ecf 100%);
+    background: linear-gradient(90deg, #219D01 0%, #366ecf 100%);
     opacity: 80%;
     margin-bottom: 30px;
-    
+
 }
 
-nav h1{
+nav h1 {
     color: white;
-    text-align: left ;
+    text-align: left;
     padding-left: 40px;
     padding-top: 20px;
-   
+
 }
 
 nav img {
     height: 65px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
 }
 
- 
-#link1{
+
+#link1 {
     display: inline-block;
     color: #ffffff;
-    margin-left: 1080px ;
+    margin-left: 73%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #1b5e20;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+#link2 {
+    display: inline-block;
+    margin-left: 0.8%;
+    color: #ffffff;
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: #1b5e20;
@@ -64,26 +78,14 @@ nav img {
     padding: 10px 20px;
 }
 
-#link2{
-    display: inline-block;
-    color: #ffffff;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    background-color: #1b5e20;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-}
+footer {
 
-footer{
-
-background-color: #219D01;
-color: white;
-position: fixed;
-padding: 10px;
-bottom: 0;
-width: 100% ;
+    background-color: #219D01;
+    color: white;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
 }
 
 .services {
@@ -98,7 +100,7 @@ width: 100% ;
     margin-bottom: 30px;
 }
 
-h4{
+h4 {
     font-weight: lighter;
 }
 
@@ -129,7 +131,7 @@ h4{
 }
 
 .service h2 {
-    font-size: 1.5em;   
+    font-size: 1.5em;
     color: #1b5e20;
     margin-bottom: 10px;
 }
@@ -165,7 +167,7 @@ h4{
 }
 
 .login html {
-    
+
     color: #fff;
     display: flex;
     justify-content: center;
@@ -173,7 +175,7 @@ h4{
     height: 100vh;
 }
 
-.login body{
+.login body {
     font-family: 'Poppins', sans-serif;
     background-image: url(fundo.png);
     background-repeat: no-repeat;
@@ -201,7 +203,7 @@ h4{
     justify-content: center;
 }
 
-#login-image{
+#login-image {
     height: 370px;
 }
 
@@ -213,11 +215,12 @@ h4{
     justify-content: center;
     background-color: #f3f3f3;
 }
+
 h1 {
     color: #000000;
     font-size: 24px;
     margin-bottom: 20px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 .login-form h1 {
@@ -236,7 +239,7 @@ h1 {
     border-radius: 5px;
     border: none;
     background-color: #ffffff;
-    color: #fff;
+    color: #000000;
 }
 
 .btn {
@@ -250,7 +253,7 @@ h1 {
 
 .btn.login {
     background-color: #219D01;
-    color: #fff;
+    color: #ffffff;
 }
 
 .btn.signup {
@@ -272,6 +275,7 @@ h1 {
 .social-icons a:hover {
     color: #6a11cb;
 }
+
 /*Aba de vendas*/
 
 .venda {
@@ -282,16 +286,20 @@ h1 {
     width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    text-align: center;
+    
 }
 
 .vendas {
     text-align: center;
     padding: 0px 0;
     background: none;
+    font-family: sans-serif;
+    margin-left: 2%;
+
 }
 
 .venda img {
-height: 400px;
-border-radius: 10px;
+    height: 400px;
+    border-radius: 10px;
 }
+
