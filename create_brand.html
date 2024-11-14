@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="stylemarca.css">
 </head>
 <body>
+
+    <header>
+        <nav>
+            <img src="logoFundo.png" alt="">
+            <h1 id="title ">Germino</h1>
+            <a href="">Início</a>
+            <a href=""></a>
+            <a id="link1" href="#">Cadastrar-se</a>
+            <a id="link2" href="#">Entrar</a>
+
+        </nav>
+
     <div class="container">
-        <h1>Create a New Brand</h1>
+        <h1 id="CreateBrand">Create a New Brand</h1>
         <form id="createBrandForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
+            <input type="text" id="name"  placeholder="Brand Name" required>
             
-            <label for="description">Description:</label>
-            <textarea id="description"></textarea>
+         
+            <textarea id="description" placeholder="Description"></textarea>
             
             <button type="submit">Create Brand</button>
         </form>

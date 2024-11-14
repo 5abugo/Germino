@@ -1,47 +1,138 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+* {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+
+    background-color: rgb(255, 255, 255);
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin: 0px;
+    text-align: center;
+
+}
+
+header {
+    padding: 0px;
+    font-family: sans-serif;
+    max-height: 85px;
+    min-height: 85px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    background: linear-gradient(90deg, #219D01 0%, #366ecf 100%);
+    opacity: 80%;
+    margin-bottom: 30px;
+
+}
+
+nav h1 {
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+
+nav img {
+    height: 65px;
+   
+
+}
+
+
+#link1 {
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 73%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #1b5e20;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+#link2 {
+    display: inline-block;
+    margin-left: 0.8%;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #1b5e20;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
 .container {
     max-width: 700px;
     margin: auto;
-    background: white;
+    background: #f1f1f1;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
 }
 
-h1 {
+#CreateBrand {
     text-align: center;
     color: #000000;
+    margin-bottom: 5%;
+
 }
 
-#description{
-    width: 90%;
+#description {
+    max-width: 90%;
+    font-family: sans-serif;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 90%;
+
+}
+
+label {
     margin-left: 5%;
 }
 
 input {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
+    width: 90%;
+    padding: 14px;
+    margin-left: 5%;
+    background-color: white;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-left: 10%;
- 
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 3%;
+
 }
 
 button {
-    width: 40%;
+    width: 25%;
     padding: 10px;
     background: #219D01;
     color: white;
     border: none;
     border-radius: 4px;
-  margin-left: 30%;
+    margin-left: 37.5%;
+    margin-top: 5%;
+
 }
 
 button:hover {
@@ -54,4 +145,16 @@ button:hover {
 
 #tokenData {
     margin-top: 20px;
+}
+
+#CreateProduct {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+#WantCreate {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
 }
